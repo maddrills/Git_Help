@@ -1,0 +1,9 @@
+https://github.com/Sakshigoyal7351/Bootstrap-Practise-programs
+
+
+ftp://172.16.1.100
+
+
+https://www.youtube.com/watch?v=4ZrtUR7tN6c
+
+git config --global --add safe.directory '*'

@@ -1,0 +1,22 @@
+Before disabling, make sure you understand this security measure,
+and why it exists.
+You should not do this if your repositories are stored on a shared drive.
+
+However, if you are the sole user of your machine 100% of the time,
+ and your repositories are stored locally,
+ then disabling this check should, theoretically, pose no increased risk.
+
+Also note that you can't currently combine this with a file path,
+ which would be relevant in my case.
+ The command doesn't interpret the wildcard * as an operator per se –
+ it just takes the "*" argument to mean "disable safe repository checks/ consider all repositories as safe".
+
+
+git config --global --add safe.directory '*'
+
+
+
+wingftp
+root
+rootroot
+localRepo
